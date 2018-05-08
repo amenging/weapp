@@ -1,0 +1,5 @@
+<we-tab list='{{list1}}' active-idx='{{choose}}' bind:change='onTap'></we-tab>
+
+<view wx:if='{{choose == 0}}'>标签1的内容</view>
+<view wx:if='{{choose == 1}}'>标签2的内容</view>
+<view wx:if='{{choose == 2}}'>标签3的内容</view>

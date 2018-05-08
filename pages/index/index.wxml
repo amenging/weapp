@@ -1,1 +1,2 @@
-<canvas canvas-id='timeCanvas' style='width: 300rpx; height: 300rpx;margin: auto'></canvas>
+<navigator url='/pages/canvas/canvas'>画布</navigator>
+<navigator url='/pages/tab/tab'>标签切换</navigator>
