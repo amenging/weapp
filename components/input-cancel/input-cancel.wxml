@@ -1,0 +1,5 @@
+<!-- 按钮位置在css修改 -->
+<view class='input-cancel'>
+  <input bindinput='inputCancelValue' value="{{val}}"></input>
+  <image bindtap='inputCancel' src='{{inputCancelSrc}}' class='inputCancel'></image>
+</view>

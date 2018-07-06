@@ -2,7 +2,9 @@
   "pages": [
     "pages/index/index",
     "pages/tab/tab",
-    "pages/canvas/canvas"
+    "pages/canvas/canvas",
+    "pages/scroll/scroll",
+    "pages/input/input"
   ],
   "window": {
     "backgroundTextStyle": "light",

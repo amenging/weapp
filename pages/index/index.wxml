@@ -1,2 +1,4 @@
 <navigator url='/pages/canvas/canvas'>画布</navigator>
 <navigator url='/pages/tab/tab'>标签切换</navigator>
+<navigator url='/pages/scroll/scroll'>左右滑动切换</navigator>
+<navigator url='/pages/input/input'>输入框</navigator>

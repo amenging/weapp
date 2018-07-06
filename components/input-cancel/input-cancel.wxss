@@ -1,0 +1,14 @@
+.input-cancel {
+  position: relative;
+}
+.input-cancel input {
+  border: 1px solid #ccc;
+}
+.inputCancel {
+  width: 30rpx;
+  height: 30rpx;
+  position: absolute;
+  right: 10rpx;
+  top: 10rpx;
+  z-index: 10;
+}

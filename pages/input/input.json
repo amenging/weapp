@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "inputCancel": "/components/input-cancel/input-cancel"
+  }
+}
