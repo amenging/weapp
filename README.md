@@ -15,3 +15,7 @@
 **瀑布流**
 >* 路径：pages/masonry
 >* 组件路径：components/masonry
+
+**弹窗**
+>* 路径：pages/dialog
+>* 组件路径：components/dialog

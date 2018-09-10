@@ -2,3 +2,4 @@
 <navigator url='/pages/tab/tab'>标签切换</navigator>
 <navigator url='/pages/input/input'>输入框</navigator>
 <navigator url='/pages/masonry/masonry'>瀑布流</navigator>
+<navigator url='/pages/dialog/dialog'>弹窗</navigator>
