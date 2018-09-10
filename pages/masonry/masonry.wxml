@@ -1,0 +1,12 @@
+<view class='masonry'>
+  <view class='column'>
+    <block wx:for='{{list}}' wx:key='{{index}}' wx:if='{{index%2 == 0}}'>
+      <item data='{{item}}'></item>
+    </block>
+  </view>
+  <view class='column'>
+    <block wx:for='{{list}}' wx:key='{{index}}' wx:if='{{index%2 == 1}}'>
+      <item data='{{item}}'></item>
+    </block>
+  </view>
+</view>

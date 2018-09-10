@@ -1,0 +1,4 @@
+<view class='item'>
+  <image mode='widthFix' src='{{data.img}}'></image>
+  <view>{{data.text}}</view>
+</view>
