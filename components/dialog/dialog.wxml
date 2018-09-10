@@ -1,0 +1,15 @@
+<view class='dialog'>
+  <view class='dialog-window'>
+    <view class='dialog-header' wx:if='{{data.header}}'>
+      {{data.header}}
+    </view>
+    <view class='dialog-content'>
+      <text>{{data.content}}</text>
+    </view>
+    <view class='dialog-footer'>
+      <block wx:for='{{data.footer}}'>
+        <button bindtap='tap' data-index='{{index}}'>{{item}}</button>
+      </block>
+    </view>
+  </view>
+</view>

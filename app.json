@@ -3,8 +3,9 @@
     "pages/index/index",
     "pages/tab/tab",
     "pages/canvas/canvas",
-    "pages/scroll/scroll",
-    "pages/input/input"
+    "pages/input/input",
+    "pages/masonry/masonry",
+    "pages/dialog/dialog"
   ],
   "window": {
     "backgroundTextStyle": "light",

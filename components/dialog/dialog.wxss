@@ -1,0 +1,42 @@
+.dialog {
+  position: fixed;
+  background: rgba(0, 0, 0, .5);
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1001;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dialog-window {
+  background: #fff;
+  width: 70%;
+  border-radius:20rpx;
+  overflow: hidden;
+}
+.dialog-header {
+  text-align: center;
+}
+.dialog-content {
+  text-align: center;
+  font-size: 30rpx;
+  padding: 53rpx;
+  color: #7B3932;
+}
+.dialog-footer {
+  display: flex;
+  font-size: 24rpx;
+}
+button {
+  background: #D6F8FF;
+  color: #237687;
+  flex: 1;
+  border-radius: 0;
+}
+button:first-child {
+  border-right: 1px solid #9FE2F0;
+}
+button::after {
+  border: 0;
+}
