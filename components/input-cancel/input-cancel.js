@@ -21,7 +21,8 @@ Component({
   methods: {
     inputCancel () {
       this.setData({
-        val: ''
+        val: '',
+        inputCancelSrc: '../imgs/search.png'
       })
       this.triggerEvent('inputCancelValue', { val: this.data.val })
     },

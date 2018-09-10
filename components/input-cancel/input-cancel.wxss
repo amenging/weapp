@@ -1,5 +1,8 @@
 .input-cancel {
   position: relative;
+  width: 80%;
+  margin: auto;
+  margin-top: 10rpx;
 }
 .input-cancel input {
   border: 1px solid #ccc;
