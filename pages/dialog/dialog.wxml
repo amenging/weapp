@@ -1,1 +1,7 @@
-<dialog data='{{dialogData}}'></dialog>
+<dialog 
+  wx:if='{{dialog}}' 
+  data='{{dialogData}}' 
+  binddialogTap='tap'>
+</dialog>
+
+<button bindtap='showDialog'>显示弹窗</button>

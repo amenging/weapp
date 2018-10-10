@@ -9,9 +9,25 @@ Page({
       header: '标题',
       content: 'xxx',
       footer: ['xx', 'xx']
-    }
+    },
+    dialog: true
   },
 
+  tap (e) {
+    this.setData({
+      dialog: false
+    })
+    wx.showModal({
+      title: '提示',
+      content: '你点击的索引为' + e.detail.index,
+    })
+  },
+
+  showDialog () {
+    this.setData({
+      dialog: true
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
