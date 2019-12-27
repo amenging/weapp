@@ -1,4 +1,4 @@
-// pages/tab/tab.js
+// subpages/package1//pages/index/index.js
 Page({
 
   /**

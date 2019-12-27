@@ -1,4 +1,4 @@
-// pages/tab/tab.js
+// subpages/mouseActivityModule/pages/index/index.js
 Page({
 
   /**

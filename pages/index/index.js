@@ -1,3 +1,9 @@
+// const { setNavigateToPagePath } = requirePlugin("stickerAR");
+// setNavigateToPagePath('/pages/index/index');
+
+// const { setMenuButtonBoundingClientRect } = requirePlugin("stickerAR");
+// setMenuButtonBoundingClientRect(wx.getMenuButtonBoundingClientRect());
+
 Page({
 
   /**
@@ -12,6 +18,10 @@ Page({
    */
   onLoad: function (options) {
     
+  },
+
+  getinfo (e) {
+    console.log(e)
   },
 
   /**

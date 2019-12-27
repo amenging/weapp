@@ -1,13 +1,1 @@
-.masonry {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: space-between;
-  /* padding: 0 26rpx; */
-}
-.column {
-  display: flex;
-  flex-flow: column wrap; 
-  width: 312rpx;
-  padding: 0 20rpx;
-}
+/* pages/masonry/masonry.wxss */

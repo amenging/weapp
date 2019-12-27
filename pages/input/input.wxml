@@ -1,1 +1,2 @@
-<inputCancel bind:inputCancelValue='inputCancelValue'></inputCancel>
+<!--pages/input/input.wxml-->
+<text>pages/input/input.wxml</text>

@@ -5,12 +5,35 @@
     "pages/canvas/canvas",
     "pages/input/input",
     "pages/masonry/masonry",
-    "pages/dialog/dialog"
+    "pages/dialog/dialog",
+    "subpages/mouseActivityModule/pages/index/index"
   ],
   "window": {
-    "backgroundTextStyle": "light",
+    "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#32b16c",
     "navigationBarTitleText": "WeApp",
-    "navigationBarTextStyle": "white"
+    "navigatio  nBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "sitemapLocation": "sitemap.json",
+  "subPackages": [
+    {
+      "root": "subpages/ARModule/",
+      "pages": [
+        "pages/index/index"
+      ],
+      "name": "pack1"
+      
+    }
+  ],
+  "plugins": {
+    "tfjsPlugin": {
+      "version": "0.0.7",
+      "provider": "wx6afed118d9e81df9"
+    },
+    "stickerAR": {
+      "version": "1.5.0",
+      "provider": "wx9f294c784497a4e9"
+    }
   }
 }

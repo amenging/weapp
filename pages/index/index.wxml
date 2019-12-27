@@ -1,6 +1,13 @@
-<navigator url='/pages/canvas/canvas'>画布</navigator>
+<!-- <navigator url='/pages/canvas/canvas'>画布</navigator>
 <navigator url='/pages/tab/tab'>标签切换</navigator>
 <navigator url='/pages/input/input'>输入框</navigator>
 <navigator url='/pages/masonry/masonry'>瀑布流</navigator>
 <navigator url='/pages/dialog/dialog'>弹窗</navigator>
+<navigator url='/packages/package1/pages/index/index'>分包和插件</navigator> -->
+<!-- <navigator url='/subpages/ARModule/pages/index/index'>分包和插件</navigator> -->
 <!-- <navigator url='/pages/uploadimg/uploadimg'>上传图片</navigator> -->
+
+<!-- <button open-type="getUserInfo" bindgetuserinfo="getinfo">jjujui</button> -->
+<navigator url='/subpages/ARModule/pages/jump/jump' style="margin-top: 200rpx" >分包和插件</navigator>
+
+<navigator url="plugin://stickerAR/tryon">插件测试</navigator>

@@ -1,0 +1,30 @@
+<view class="container">
+  <image class="gif" src="{{imgUrl}}"></image>
+
+  <view class="buttons">
+    <!-- 分享或二维码进入 -->
+    <view wx:if="{{share}}">
+      <image bindtap="backToHome" class="backToHome" src="../../assets/imgs/main_copy.png"></image>
+    </view>
+
+    <!-- 插件页面跳转进入 -->
+    <view wx:else>
+      <view class="flexContainer">
+        <image
+          bindtap="saveImg"
+          class="saveImg"
+          src="../../assets/imgs/remind_icn_wt.png"></image>
+        <image
+          bindtap="backToCamera"
+          class="backToCamera"
+          src="../../assets/imgs/remind_wt.png"></image>
+      </view>
+
+      <view class="shareButton">
+        <image src="../../assets/imgs/share.png"></image>
+        <button open-type="share">分享</button>
+      </view>
+    </view>  
+  </view>
+
+</view>

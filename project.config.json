@@ -4,16 +4,31 @@
 		"ignore": []
 	},
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
 		"postcss": true,
+		"preloadBackgroundData": false,
 		"minified": true,
-		"newFeature": true
+		"newFeature": true,
+		"coverView": true,
+		"autoAudits": false,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
 	},
 	"compileType": "miniprogram",
 	"libVersion": "1.9.98",
-	"appid": "touristappid",
+	"appid": "wx82b074ac23a8114c",
 	"projectname": "weapp-demo",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
 	"condition": {
 		"search": {
 			"current": -1,
@@ -31,6 +46,10 @@
 			"currentL": -1,
 			"list": []
 		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
 		"miniprogram": {
 			"current": 1,
 			"list": [
@@ -42,9 +61,24 @@
 				},
 				{
 					"id": 1,
-					"name": "m",
-					"pathName": "pages/dialog/dialog",
-					"query": ""
+					"name": "packages/package1/pages/index/index",
+					"pathName": "packages/package1/pages/index/index",
+					"query": "share=true&simg= https://n.sinaimg.cn/tech/transform/112/w500h412/20191209/9d84-iknhexh9461234.gif",
+					"scene": 1007
+				},
+				{
+					"id": -1,
+					"name": "pages/three/three",
+					"pathName": "pages/three/three",
+					"query": "share=true&simg= https://n.sinaimg.cn/tech/transform/112/w500h412/20191209/9d84-iknhexh9461234.gif",
+					"scene": null
+				},
+				{
+					"id": 3,
+					"name": "subpages/ARModule/pages/index/index",
+					"pathName": "subpages/ARModule/pages/index/index",
+					"query": "share=true&openid=oAgkd0RlH14t19empjHob1C4k_x0",
+					"scene": null
 				}
 			]
 		}
